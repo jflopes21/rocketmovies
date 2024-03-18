@@ -28,7 +28,7 @@ export default createGlobalStyle`
   a {
     text-decoration: none;
   }
-
+  
   input {
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
   }
