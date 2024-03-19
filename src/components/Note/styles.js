@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.button`
   width: 100%;
-  height: 230px;
+  height: 100%;
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_100};
   border: none;
   border-radius: 16px;
@@ -25,14 +25,17 @@ export const Container = styled.button`
 
   > p {
     width: 100%;
-    height: 50px;
     color: ${({ theme }) => theme.COLORS.GRAY_400};
 
     text-overflow: ellipsis;
     overflow: hidden;
 
-    white-space: nowrap;
+    white-space: normal;
     text-align: justify;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; 
 
   }
 
