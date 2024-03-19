@@ -34,10 +34,6 @@ export const Container = styled.button`
     white-space: nowrap;
     text-align: justify;
 
-    display: -webkit-box;
-    -webkit-line-clamp: 2; /* Número máximo de linhas para exibir */
-    -webkit-box-orient: vertical; /* Orientação vertical para o layout flexível */
-
   }
 
 
