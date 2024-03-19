@@ -8,6 +8,7 @@ font-family: 'Roboto', serif;
 text-align: center;
 border-radius: 8px;
 background-color: ${({theme}) => theme.COLORS.GRAY_500};
+color: ${({theme}) => theme.COLORS.WHITE};
 
 max-width: 200px;
 
