@@ -29,7 +29,7 @@ export default createGlobalStyle`
     text-decoration: none;
   }
   
-  input {
+  input, textarea {
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
   }
 

@@ -16,7 +16,9 @@ export function SignUp() {
         <Input type="password" icon={FiLock} placeholder="Senha" />
         <Button title="Cadastrar" />
         <div className="backToLogin">
-          <ButtonText title="Voltar para o login" icon={FiArrowLeft}/>
+          <a href="/">
+            <ButtonText title="Voltar para o login" icon={FiArrowLeft} />
+          </a>
         </div>
       </Form>
 

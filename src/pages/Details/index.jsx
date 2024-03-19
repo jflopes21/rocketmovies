@@ -11,7 +11,9 @@ export function Details() {
       <Header />
       <main>
         <Content>
-          <ButtonText title="Voltar" icon={FiArrowLeft} />
+          <a href="/">
+            <ButtonText title="Voltar" icon={FiArrowLeft} />
+          </a>
           <div className="title">
             <h1>Interestellar</h1>
             <Rating stars={4} />
@@ -30,7 +32,7 @@ export function Details() {
             </div>
           </div>
           <div className="tags">
-            <Tag title="Ficção Científica"/>
+            <Tag title="Ficção Científica" />
             <Tag title="Drama" />
             <Tag title="Família" />
           </div>
