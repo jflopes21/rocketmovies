@@ -6,6 +6,7 @@ import { ButtonText } from "../../components/ButtonText";
 import { FiArrowLeft } from "react-icons/fi";
 import { Textarea } from "../../components/Textarea";
 import { Noteitem } from "../../components/Noteitem";
+import { Link } from "react-router-dom";
 
 export function New() {
   return (
@@ -14,9 +15,9 @@ export function New() {
       <main>
         <Form>
           <header>
-            <a href="/">
+            <Link to="/">
               <ButtonText title="Voltar" icon={FiArrowLeft} />
-            </a>
+            </Link>
             <h1>Novo filme</h1>
           </header>
           <div className="inputs">

@@ -36,7 +36,7 @@ export const Title = styled.div`
     font-size: 3.2rem;
   }
 
-  > .addButton{
+  > a .addButton{
     width: 210px;
   }
 `;
